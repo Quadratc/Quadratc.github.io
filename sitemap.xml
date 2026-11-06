@@ -2,24 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://yaoyo.xyz/characters/lee-myung-bak/presidency/index.html</loc>
-    
-    <lastmod>2026-11-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yaoyo.xyz/characters/lee-myung-bak/seoul/index.html</loc>
-    
-    <lastmod>2026-11-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yaoyo.xyz/characters/lee-myung-bak/index.html</loc>
     
     <lastmod>2026-11-06</lastmod>
@@ -48,6 +30,24 @@
   
   <url>
     <loc>https://yaoyo.xyz/characters/lee-myung-bak/trials/index.html</loc>
+    
+    <lastmod>2026-11-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yaoyo.xyz/characters/lee-myung-bak/presidency/index.html</loc>
+    
+    <lastmod>2026-11-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yaoyo.xyz/characters/lee-myung-bak/seoul/index.html</loc>
     
     <lastmod>2026-11-06</lastmod>
     
@@ -252,14 +252,14 @@
   </url>
   
   <url>
-    <loc>https://yaoyo.xyz/tags/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://yaoyo.xyz/tags/%E5%85%B4%E8%B6%A3/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yaoyo.xyz/tags/%E5%85%B4%E8%B6%A3/</loc>
+    <loc>https://yaoyo.xyz/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
