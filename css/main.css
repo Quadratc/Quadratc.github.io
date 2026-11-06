@@ -1175,7 +1175,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #582aff;
+  background: #14b570;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -3725,5 +3725,181 @@ pre {
   .post-body a.res-btn {
     width: 100%;
     justify-content: center;
+  }
+}
+.hs-page .post-block {
+  background: rgba(247,240,226,0.97) !important;
+}
+.hs-page .post-body {
+  color: #46392b;
+}
+.hs-page .post-title {
+  padding-bottom: 12px;
+  border-bottom: 3px double #bfae8f;
+  color: #3e3126;
+}
+.hs-page .post-body h2 {
+  margin-top: 36px;
+  padding: 6px 0 6px 14px;
+  border-left: 5px solid #8c2f28;
+  border-bottom: 1px solid #d9cdb4;
+  color: #3e3126;
+}
+.hs-page .post-body h3 {
+  color: #6d5231;
+}
+.hs-page .post-body p a {
+  color: #8c2f28;
+}
+.hs-page .post-body p a:hover {
+  color: #6d231d;
+  text-decoration: underline;
+}
+.hs-page .char-val a {
+  color: #8c2f28 !important;
+}
+.hs-page .char-val a:hover {
+  color: #6d231d !important;
+  text-decoration: underline;
+}
+.hs-page .char-figure figcaption a {
+  color: #8c2f28 !important;
+}
+.hs-page .char-figure figcaption a:hover {
+  color: #6d231d !important;
+  text-decoration: underline;
+}
+.post-body .hs-file-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+  margin: 0 0 18px;
+  padding: 10px 16px;
+  border: 1px solid #d6c49b;
+  border-left: 4px solid #8c2f28;
+  border-radius: 0 4px 4px 0;
+  background: #f4ecd6;
+  color: #7a5a30;
+  font-size: 13px;
+  letter-spacing: 2px;
+  line-height: 1.9;
+}
+.hs-page .char-nav {
+  background: #33281a;
+  border: 1px solid #211910;
+  border-radius: 6px;
+}
+.hs-page .char-nav-item {
+  background: transparent;
+  border-color: rgba(222,200,158,0.4);
+  border-radius: 3px;
+  color: #d8c9a5 !important;
+}
+.hs-page .char-nav-item:hover {
+  background: #8c2f28;
+  border-color: #8c2f28;
+  color: #fff !important;
+}
+.hs-page .char-nav-item.is-active {
+  background: #8c2f28;
+  border-color: #8c2f28;
+  color: #fff !important;
+}
+.hs-page .char-figure {
+  position: relative;
+}
+.hs-page .char-figure img {
+  border: 10px solid #fcf7ea;
+  outline: 1px solid #d8c9a3;
+  border-radius: 2px;
+  box-shadow: 0 10px 26px rgba(60,44,22,0.3);
+  filter: sepia(0.15);
+}
+.hs-page .char-figure figcaption {
+  color: #93815f;
+}
+.hs-page .char-figure.is-hero::after {
+  content: "贝克街\A 221B";
+  white-space: pre;
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  margin-left: 132px;
+  box-sizing: border-box;
+  width: 86px;
+  height: 86px;
+  border: 3px double rgba(140,47,40,0.75);
+  border-radius: 50%;
+  color: rgba(140,47,40,0.85);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  padding-top: 12px;
+  transform: rotate(12deg);
+  pointer-events: none;
+}
+.hs-page .char-sheet {
+  background: #fbf4e2;
+  border: 1px solid #dbc9a0;
+  border-radius: 4px;
+  box-shadow: 0 3px 12px rgba(90,66,30,0.14);
+}
+.hs-page .char-row {
+  border-bottom: 1px dashed #d6c49b;
+}
+.hs-page .char-row:nth-child(odd) {
+  background: transparent;
+}
+.hs-page .char-row:hover {
+  background: #f4ead0;
+}
+.hs-page .char-key {
+  background: transparent;
+  border-right: 1px dashed #d6c49b;
+  color: #7a5a30;
+  letter-spacing: 1px;
+}
+.hs-page .char-val {
+  color: #4a3b28;
+}
+.hs-page .char-quote {
+  background: #f4ecd6;
+  border-left: 3px solid #8c2f28;
+  border-radius: 0 4px 4px 0;
+  font-family: Georgia, "Times New Roman", "SimSun", serif;
+  color: #4a3b28;
+}
+.hs-page .char-quote:before {
+  color: rgba(140,47,40,0.4);
+}
+.hs-page .char-quote-src {
+  color: #a08c62;
+}
+.hs-page .char-related {
+  background: #33281a;
+  border: 1px solid #211910;
+  border-radius: 6px;
+}
+.hs-page .char-related-title {
+  color: #d8c9a5;
+}
+.hs-page .char-related a {
+  color: #d8c9a5 !important;
+}
+.hs-page .char-related a:before {
+  color: #b08d57;
+}
+.hs-page .char-related a:hover {
+  color: #f4e8c8 !important;
+}
+@media (max-width: 600px) {
+  .hs-page .char-figure.is-hero::after {
+    top: 6px;
+    margin-left: 36px;
+    width: 62px;
+    height: 62px;
+    font-size: 11px;
+    padding-top: 7px;
   }
 }
